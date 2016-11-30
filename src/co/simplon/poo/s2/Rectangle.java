@@ -1,14 +1,20 @@
 package co.simplon.poo.s2;
 
 public class Rectangle extends Figure{
+
+	@Override
+	public double perimetre() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double surface() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	  
-		public double largeur, hauteur;
-		public double perimetre() {
-		return 2*(largeur+hauteur);
-		}
-		public double surface(){
-		return largeur*hauteur;
-		}
+		
 		
 }
 	  

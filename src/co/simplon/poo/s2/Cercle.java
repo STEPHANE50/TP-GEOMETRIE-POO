@@ -1,12 +1,19 @@
 package co.simplon.poo.s2;
 
 public class Cercle extends Figure {
+
+	@Override
 	public double perimetre() {
-		return Figure.pi*perimetre();
-		}
-		public double surface() {
-		return (Figure.pi*perimetre()*perimetre())/4;
-		}
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double surface() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 }
 
 
