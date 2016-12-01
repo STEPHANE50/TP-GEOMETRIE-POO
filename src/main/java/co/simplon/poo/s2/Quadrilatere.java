@@ -3,11 +3,21 @@ package co.simplon.poo.s2;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class Quadrilatere extends Figure {
-//**Son périmètre est égal à la somme de la mesure de ses 4 côtés soit :AB + BD + DC + CA*/
+
+	//**Son périmètre est égal à la somme de la mesure de ses 4 côtés soit :AB + BD + DC + CA*/
 	private double coteQuadrilatereAB;
 	private double coteQuadrilatereBD;
 	private double coteQuadrilatereDC;
 	private double coteQuadrilatereCA;
+	
+	public Quadrilatere(double coteQuadrilatereAB, double coteQuadrilatereBD, double coteQuadrilatereDC,
+			double coteQuadrilatereCA) {
+		super();
+		this.coteQuadrilatereAB = coteQuadrilatereAB;
+		this.coteQuadrilatereBD = coteQuadrilatereBD;
+		this.coteQuadrilatereDC = coteQuadrilatereDC;
+		this.coteQuadrilatereCA = coteQuadrilatereCA;
+	}
 	
 /*	public double getCoteQuadrilatereAB() {
 		return coteQuadrilatereAB;
@@ -61,6 +71,12 @@ public class Quadrilatere extends Figure {
 		   System.out.println("  - coteAB  : " + coteQuadrilatereCA) ;
 		   System.out.println("  - perimetre : " + perimetre()) ;
 		   
+	}
+
+	@Override
+	public double volume() {
+		// TODO Auto-generated method stub
+		return 0;
 	}	
 
 }

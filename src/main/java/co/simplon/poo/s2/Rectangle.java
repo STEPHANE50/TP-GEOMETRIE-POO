@@ -2,7 +2,15 @@ package co.simplon.poo.s2;
 
 public class Rectangle extends Figure{
 	
+	
+
 	private double longueurRectangle, largeurRectangle ;
+	
+	public Rectangle(double longueurRectangle, double largeurRectangle) {
+		super();
+		this.longueurRectangle = longueurRectangle;
+		this.largeurRectangle = largeurRectangle;
+	}
 	
 	@Override
 	public double perimetre() {
@@ -21,6 +29,12 @@ public class Rectangle extends Figure{
 		   System.out.println("  - largeur   : " + largeurRectangle) ;
 		   System.out.println("  - perimetre : " + perimetre()) ;
 		   System.out.println("  - surface   : " + surface());
+	}
+
+	@Override
+	public double volume() {
+		// TODO Auto-generated method stub
+		return 0;
 	}	
 		
 }
